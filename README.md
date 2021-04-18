@@ -6,16 +6,16 @@ click~a - это веб-платформа для организации ста�
 
 ## Медиа
 ![Логотип](/media/media/click_a.png)
-Ссылка на презентацию: [clicka presentation](https://www.canva.com/design/DAEb7LS1iJE/0Ql3fC5ME1n2tAv5n003vw/view?utm_content=DAEb7LS1iJE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
-Ссылка на демо: [Live demo](http://aztec.sanchozzz.beget.tech/)
-Ссылка на фигму: [Figma](https://www.figma.com/file/MHfSPHxn729qsewzqqUbSo/Clicka)
-Поиграться с нейронками можно тут: 
-[Tagger deepPavlov demo](http://46.48.14.86:5005/)
-[Relevance deepPavlov demo](http://46.48.14.86:6005/)
-Ссылки на юзер-стори: 
-[Company user story](https://www.youtube.com/watch?v=2OBl1KGzRDc)
-[Student user story](https://www.youtube.com/watch?v=upPqSK973Q4)
-[University user story](https://www.youtube.com/watch?v=MKlwWejHpmQ)
+* Ссылка на презентацию: [clicka presentation](https://www.canva.com/design/DAEb7LS1iJE/0Ql3fC5ME1n2tAv5n003vw/view?utm_content=DAEb7LS1iJE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+* Ссылка на демо: [Live demo](http://aztec.sanchozzz.beget.tech/)
+* Ссылка на фигму: [Figma](https://www.figma.com/file/MHfSPHxn729qsewzqqUbSo/Clicka)
+* Поиграться с нейронками можно тут: 
+* [Tagger deepPavlov demo](http://46.48.14.86:5005/)
+* [Relevance deepPavlov demo](http://46.48.14.86:6005/)
+* Ссылки на юзер-стори: 
+* [Company user story](https://www.youtube.com/watch?v=2OBl1KGzRDc)
+* [Student user story](https://www.youtube.com/watch?v=upPqSK973Q4)
+* [University user story](https://www.youtube.com/watch?v=MKlwWejHpmQ)
 
 ![Интерфейс](/media/media/interface.gif)
 
