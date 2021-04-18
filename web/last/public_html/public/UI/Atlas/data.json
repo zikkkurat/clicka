@@ -1,0 +1,66 @@
+{
+    name: "Java программист (middle)",
+    children: [
+      {
+        name: "Java SE",
+        children: [
+          { name: "JDBC", value: 100 },
+          { name: "Java Core", value: 60 }
+        ]
+      },
+      {
+        name: "Java EE",
+        children: [
+          { name: "JPA", value: 135 },
+          { name: "JSP", value: 98 }
+        ]
+      },
+      {
+        name: "Web Frameworks",
+        children: [
+          {
+            name: "Spring",
+            children: [
+              { name: "Spring ", value: 130 },
+              { name: "Spring Boot", value: 87 },
+              { name: "Restful Services", value: 55 }
+            ]
+          },
+          { name: "JSF", value: 148 },
+          {
+            name: "AJAX", children: [
+              { name: "Facelets", value: 53 },
+              { name: "MVC", value: 30 }
+            ]
+          },
+          { name: "Maven", value: 26 }
+        ]
+      },
+      {
+        name: "Grails",
+        children: [
+          { name: "Groovy", value: 415 },
+          { name: "GSP", value: 148 },
+          { name: "GORM", value: 89 }
+        ]
+      },
+      {
+        name: "Google",
+        children: [
+          {
+            name: "GWT",
+            children: [
+              { name: "AdSense", value: 33 },
+              { name: "Google Big Table", value: 40 },
+              { name: "Adwords", value: 89 }
+            ]
+          },
+          {
+            name: "Mail",
+            value: 148
+          }
+        ]
+      }
+
+    ]
+  }

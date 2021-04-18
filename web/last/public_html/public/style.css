@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,80);
+
+html {
+	overflow-y: hidden;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #171717;
+	height:100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ECEEF5;
+	font-size: .725rem;
+}
+.panel {
+	/*width: 1103px;*/
+	/*height: 784px;*/
+	/*background: radial-gradient(100% 197.75% at 0% 0%, #FDFDFD 5.73%, #D2D2D2 76.28%);*/
+	/*box-shadow: -32px -32px 48px rgba(43, 43, 43, 0.05), 15px 15px 50px rgba(0, 0, 0, 0.2), inset -1px -1px 4px rgba(44, 48, 68, 0.2), inset 2px 2px 2px rgba(83, 92, 136, 0.11);*/
+	/*border-radius: 41px;*/
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin: auto;
+}
+.logo {
+	line-height: .1;
+}
+.switch-wrap {
+	display: flex;
+	align-items: center;
+
+	width: 334.44px;
+	height: 86px;
+
+	background: #171717;
+	box-shadow: 10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+	border-radius: 43px;
+}
+.switch-wrap > div {
+	font-size: 14px;
+	display: flex;
+	text-align: center;
+}
+.switch-wrap > div.active{
+	background: #0085FF;
+	box-shadow: 10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+	border-radius: 27.5px;
+}
+.switch-wrap > div a {
+	width: 160px;
+	height: 55px;
+	line-height: 55px;
+	color: #0085FF
+}
+.switch-wrap > div.active a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.switch-wrap > div.active a,.switch-wrap a:hover {
+	color: #FFFFFF;
+
+}
+
+.social {
+	text-align: center;
+}
+
+.social .icons a {
+	display: inline-block;
+	width: 25%;
+}
+
+/****************/
+
+#search {
+	background: #EEF0F6;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	box-sizing: border-box;
+	/* push */
+
+	box-shadow: 10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+	border-radius: 27.5px;
+	overflow: hidden;
+	/* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+#search input {
+	font-size: 12px;
+	height: 24px!important;
+	background: #EEF0F6;
+	border: none;
+	outline: none;
+}
+
+#search input:focus {
+	box-shadow: none;
+}
+
+#sidebar {
+	width: 185px;
+    max-height: 100vh;
+    text-align: center;
+    padding: 3em 0 0 1em;
+	z-index: 10;
+	min-height: 700px;
+}
+
+#sidebar ul li {
+	margin-bottom: 2em;
+	position: relative;
+}
+
+#sidebar ul.menu li > a img {
+	margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+#sidebar ul.menu li > a:hover img,
+#sidebar ul.menu li > a.active img{
+	filter: brightness(0) invert(1);
+}
+#sidebar ul.menu li > a {
+	display: inline-block;
+	width: 74px;
+	height: 74px;
+	background: #171717;
+	box-shadow: 10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+	border-radius: 60px;
+}
+
+#sidebar ul.menu li .sub {
+	position: absolute;
+	right: -120px;
+    top: 0;
+	width: 164px;
+	height: 69px;
+	background: #171717;
+	box-shadow: 10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+	border-radius: 17px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#sidebar ul.menu li .sub a{
+	display: block;
+}
+
+.side-logo {
+	margin-bottom: 1em;
+	filter: drop-shadow(10px 10px 25px rgba(40, 40, 40, 0.4)), drop-shadow(-10px -10px 25px rgba(11, 10, 10, 0.8));
+	border-radius: 27px;
+	position: relative;
+	overflow: hidden;
+}
+.side-logo div {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+#content {
+	padding: 1em 2em;
+	margin: 100px 2em 0 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	max-height: 90vh;
+	position: relative;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 127px;
+	left: -13px;
+	bottom: 0;
+	background: linear-gradient(180deg, rgba(23, 23, 23, 0) 9.45%, #171717 88.71%);
+}
+
+#content::-webkit-scrollbar {
+	width: 7px;
+	height: 311px;
+}
+
+#content::-webkit-scrollbar-track {
+	background: linear-gradient(3.18deg, #2C333A -23.31%, #1C1E22 59.29%);
+	box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.06), inset 2px 3px 8px #070709;
+	border-radius: 31px;
+}
+
+#content::-webkit-scrollbar-thumb {
+	background: #0085FF;
+	box-shadow: -1px 2px 2px rgba(15, 18, 22, 0.6), inset 0px 0px 4px rgba(11, 15, 18, 0.22), inset 0px -2px 1px #0E1216;
+	backdrop-filter: blur(28px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 26px;
+}
+
+.small-panel {
+	display: flex;
+	width: 126px;
+	height: 44px;
+	background: #171717;
+	box-shadow: 0px 0px 20px rgba(0, 133, 255, 0.25), 10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+	border-radius: 15px;
+	align-items: center;
+	padding: 0 0 0 1em;
+}
+
+.side-menu {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.pnl2 {
+	padding: 4em 2em;
+    background: #171717;
+    border-radius: 25px;
+	box-shadow: 10px 10px 25px rgba(40, 40, 40, 0.4), -10px -10px 25px rgba(11, 10, 10, 0.8);
+	border-radius: 56px;
+	font-size: 14px;
+}

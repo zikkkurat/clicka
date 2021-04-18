@@ -1,0 +1,46 @@
+a {
+	text-decoration: none;
+	color: #ECEEF5;
+}
+
+a:hover, a.active {
+	text-decoration: none;
+	color: #3A5165!important;
+}
+
+.text-muted {
+	color: #929292!important;
+}
+
+.underline {
+	text-decoration: underline!important;
+}
+
+.circular--landscape {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%;
+  }
+  
+  .circular--landscape img {
+	width: auto;
+	height: 100%;
+	margin-left: -25px;
+  }
+
+  .circular--portrait {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%;
+  }
+  
+  .circular--portrait img {
+	width: 100%;
+	height: auto;
+	margin-top: -25px;
+  }

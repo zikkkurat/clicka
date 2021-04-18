@@ -1,0 +1,58 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    background: #171717;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: absolute;
+    right: -67px;
+    top: 15%;
+    padding: 10px;
+}
+.list li {
+    display: inline-block;
+}
+.list li a {
+    display: inline-block;
+    padding: 10px;
+}
+.list li a:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.fc .fc-daygrid-day-frame,
+.fc-theme-standard td, .fc-theme-standard th,
+.fc .fc-list-empty
+{
+    background: #171717!important;
+    color: white;
+}
+
+.fc-toolbar-title {
+    color: white;
+}
+
+table::-webkit-scrollbar {
+	width: 7px;
+	height: 311px;
+}
+
+table::-webkit-scrollbar-track {
+	background: linear-gradient(3.18deg, #2C333A -23.31%, #1C1E22 59.29%);
+	box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 0.06), inset 2px 3px 8px #070709;
+	border-radius: 31px;
+}
+
+table::-webkit-scrollbar-thumb {
+	background: #0085FF;
+	box-shadow: -1px 2px 2px rgba(15, 18, 22, 0.6), inset 0px 0px 4px rgba(11, 15, 18, 0.22), inset 0px -2px 1px #0E1216;
+	backdrop-filter: blur(28px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 26px;
+}
